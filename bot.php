@@ -16,7 +16,7 @@ if (!is_null($events['events'])) {
 			// Get text sent
 			$text = $event['message']['text'];
 			
-			if($text == "สวัสดี") {
+			if(strpos($text, 'สวัสดี') !== false) {
 			  $textRe = "สวัสดีเช่นกันจ้าา";
 			} else if($text == "ทำอะไรอยู่") {
 			  $textRe = "คุยกะเธอไง";
