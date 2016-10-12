@@ -18,30 +18,32 @@ if (!is_null($events['events'])) {
 			
 			if($text == "สวัสดี") {
 			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			}else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "สวัสดี") {
-			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "ทำอะไรอยู่") {
+			  $textRe = "คุยกะเธอไง";
+			} else if($text == "บอกมา") {
+			  $textRe = "ความลับนะ";
+			} else if($text == "อยู่ไหน") {
+			  $textRe = "อยู่นี่";
+			} else if($text == "555") {
+			  $textRe = "ถถถ";
+			} else if($text == "อิอิ") {
+			  $textRe = "vbvb";
+			} else if($text == "ง่วง") {
+			  $textRe = "ไปนอนจิ";
+			} else if($text == "เนอะ") {
+			  $textRe = "เนอะ เนอะ";
+			} else if($text == "ฝนตก") {
+			  $textRe = "ไฟดับมั้ย";
+			}else if($text == "หิว") {
+			  $textRe = "ติมมั้ย อิอิ";
+			} else if($text == "คิดถึง") {
+			  $textRe = "ทำไงดี อิอิ";
+			} else if($text == "นอนยัง") {
+			  $textRe = "กำลังจานอน ฝันดีนะ ^^";
+			} else if($text == "ครับ") {
+			  $textRe = "ค่ะ";
+			} else if($text == "ค่ะ") {
+			  $textRe = "ครับ";
 			} else {
 			  $textRe = $text;
 			}
