@@ -18,27 +18,27 @@ if (!is_null($events['events'])) {
 			
 			if(strpos($text, 'สวัสดี') !== false) {
 			  $textRe = "สวัสดีเช่นกันจ้าา";
-			} else if($text == "ทำอะไรอยู่") {
+			} else if(strpos($text, 'ทำอะไร') !== false) {
 			  $textRe = "คุยกะเธอไง";
-			} else if($text == "บอกมา") {
+			} else if(strpos($text, 'บอกมา') !== false) {
 			  $textRe = "ความลับนะ";
-			} else if($text == "อยู่ไหน") {
+			} else if(strpos($text, 'อยู่ไหน') !== false) {
 			  $textRe = "อยู่นี่";
-			} else if($text == "555") {
+			} else if(strpos($text, '555') !== false) {
 			  $textRe = "ถถถ";
-			} else if($text == "อิอิ") {
+			} else if(strpos($text, 'อิอิ') !== false) {
 			  $textRe = "vbvb";
-			} else if($text == "ง่วง") {
+			} else if(strpos($text, 'ง่วง') !== false) {
 			  $textRe = "ไปนอนจิ";
-			} else if($text == "เนอะ") {
+			} else if(strpos($text, 'เนอะ') !== false) {
 			  $textRe = "เนอะ เนอะ";
-			} else if($text == "ฝนตก") {
-			  $textRe = "ไฟดับมั้ย";
-			}else if($text == "หิว") {
+			} else if(strpos($text, 'ฝนตก') !== false) {
+			  $textRe = "หยุดยัง เปียกมั้ย";
+			}else if(strpos($text, 'หิว') !== false) {
 			  $textRe = "ติมมั้ย อิอิ";
-			} else if($text == "คิดถึง") {
+			} else if(strpos($text, 'คิดถึง') !== false) {
 			  $textRe = "ทำไงดี อิอิ";
-			} else if($text == "นอนยัง") {
+			} else if(strpos($text, 'นอน') !== false) {
 			  $textRe = "กำลังจานอน ฝันดีนะ ^^";
 			} else if($text == "ครับ") {
 			  $textRe = "ค่ะ";
