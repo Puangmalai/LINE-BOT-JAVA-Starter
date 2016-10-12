@@ -17,7 +17,31 @@ if (!is_null($events['events'])) {
 			$text = $event['message']['text'];
 			
 			if($text == "สวัสดี") {
-			  $textRe = "สวัสดีจ้าา";
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			}else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
+			} else if($text == "สวัสดี") {
+			  $textRe = "สวัสดีเช่นกันจ้าา";
 			} else {
 			  $textRe = $text;
 			}
